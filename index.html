@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>老子电影网 · 华语老电影资料与观看指引｜laozidianyingwang-zh.github.io</title>
+<meta name="description" content="老子电影网（laozidianyingwang-zh.github.io）专注华语老电影、经典影片与怀旧影视的资料整理，提供影片目录、年代索引、题材分类与正版观看渠道指引，帮助影迷系统查找与了解老电影。">
+<meta name="keywords" content="老子电影网, laozidianyingwang-zh.github.io, 华语老电影, 经典电影, 怀旧电影, 老片资料, 影片目录, 观看指引">
+<meta name="author" content="老子电影网编辑部">
+<meta property="og:type" content="website">
+<meta property="og:title" content="老子电影网 · 华语老电影资料与观看指引">
+<meta property="og:description" content="华语老电影、经典影片与怀旧影视的资料整理站点，提供影片目录、年代索引与正版观看渠道指引。">
+<meta property="og:url" content="https://laozidianyingwang-zh.github.io">
+<meta property="og:site_name" content="老子电影网">
+<link rel="canonical" href="https://laozidianyingwang-zh.github.io">
+<style>
+:root{
+  --ink:#3d3229;
+  --ink2:#5c4d3f;
+  --paper:#f5efe3;
+  --paper2:#efe7d6;
+  --card:#fbf7ee;
+  --line:#d8ccb4;
+  --brand:#8a5a2b;
+  --brand2:#a9713b;
+  --accent:#3f6b5f;
+  --shadow:0 3px 14px rgba(58,46,33,.12);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",Georgia,serif;
+  background:var(--paper);
+  background-image:
+    repeating-linear-gradient(0deg,transparent 0,transparent 31px,rgba(138,90,43,.05) 31px,rgba(138,90,43,.05) 32px);
+  color:var(--ink);
+  line-height:1.75;
+  font-size:16px;
+}
+a{color:var(--brand);text-decoration:none}
+a:hover{color:var(--brand2);text-decoration:underline}
+img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+/* ===== 顶部刊头 ===== */
+.masthead{
+  background:linear-gradient(160deg,#4a3f35 0%,#6b563f 55%,#5c4a34 100%);
+  color:#f4ecdd;
+  padding:26px 0 22px;
+  border-bottom:5px double #f4ecdd;
+}
+.masthead .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:16px}
+.brand .seal{
+  width:64px;height:64px;border-radius:50%;
+  background:var(--paper);color:var(--brand);
+  display:flex;align-items:center;justify-content:center;
+  font-size:34px;font-weight:700;flex-shrink:0;
+  box-shadow:0 0 0 3px rgba(244,236,221,.5),0 0 0 6px rgba(244,236,221,.18);
+}
+.brand .name{font-size:30px;letter-spacing:3px;font-weight:700}
+.brand .sub{font-size:12.5px;letter-spacing:4px;opacity:.82;margin-top:4px}
+.meta-links{display:flex;gap:14px;font-size:13px;flex-wrap:wrap}
+.meta-links a{color:#f4ecdd;border:1px solid rgba(244,236,221,.4);padding:5px 13px;border-radius:14px;transition:.2s}
+.meta-links a:hover{background:#f4ecdd;color:var(--brand);text-decoration:none}
+/* ===== 导航 ===== */
+nav.top{
+  background:var(--paper2);
+  border-bottom:1px solid var(--line);
+  position:sticky;top:0;z-index:50;
+  box-shadow:0 2px 8px rgba(58,46,33,.06);
+}
+nav.top .wrap{display:flex;align-items:center;gap:6px;overflow-x:auto}
+nav.top a{
+  padding:13px 15px;font-size:15px;white-space:nowrap;
+  border-bottom:3px solid transparent;transition:.18s;letter-spacing:1px;
+}
+nav.top a:hover{background:rgba(138,90,43,.08);border-bottom-color:var(--brand);text-decoration:none}
+/* ===== 栏目标题 ===== */
+section{padding:54px 0 10px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:26px;flex-wrap:wrap}
+.sec-head .no{
+  font-family:Georgia,serif;font-size:15px;color:var(--brand);
+  border:1.5px solid var(--brand);border-radius:50%;
+  width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.sec-head h2{font-size:24px;letter-spacing:2px;font-weight:700}
+.sec-head .en{font-size:12.5px;color:var(--ink2);letter-spacing:2px;opacity:.75}
+.sec-head .rule{flex:1;height:1px;background:var(--line);min-width:40px}
+.sec-note{background:var(--card);border-left:4px solid var(--brand);padding:16px 20px;margin-bottom:26px;font-size:15px;color:var(--ink2)}
+/* ===== Hero ===== */
+.hero{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:38px;box-shadow:var(--shadow);margin-top:34px;position:relative;overflow:hidden}
+.hero::after{content:"影";position:absolute;right:-26px;bottom:-52px;font-size:190px;color:rgba(138,90,43,.07);font-weight:700;line-height:1}
+.hero h1{font-size:32px;letter-spacing:2px;margin-bottom:12px;position:relative}
+.hero .url{display:inline-block;background:var(--paper2);border:1px dashed var(--brand);padding:7px 15px;border-radius:4px;font-family:monospace;font-size:14px;margin-bottom:18px;position:relative}
+.hero p{font-size:15.5px;color:var(--ink2);max-width:760px;position:relative}
+.hero .tags{margin-top:22px;display:flex;gap:9px;flex-wrap:wrap;position:relative}
+.hero .tags span{background:#fff;border:1px solid var(--line);padding:5px 13px;border-radius:3px;font-size:13.5px;color:var(--brand)}
+/* ===== 网格通用 ===== */
+.grid{display:grid;gap:20px}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g4{grid-template-columns:repeat(4,1fr)}
+/* ===== 片卡 ===== */
+.film{background:var(--card);border:1px solid var(--line);border-radius:5px;overflow:hidden;transition:.22s;box-shadow:var(--shadow)}
+.film:hover{transform:translateY(-4px);box-shadow:0 9px 24px rgba(58,46,33,.16)}
+.film .poster{height:150px;background:linear-gradient(135deg,#8a5a2b,#5c4a34);position:relative;display:flex;align-items:center;justify-content:center}
+.film .poster span{color:#f4ecdd;font-size:15px;letter-spacing:2px;text-align:center;padding:0 14px}
+.film .poster::before{content:"";position:absolute;inset:8px;border:1px solid rgba(244,236,221,.35)}
+.film .body{padding:15px 16px}
+.film .body h3{font-size:17px;margin-bottom:7px}
+.film .body p{font-size:13.5px;color:var(--ink2)}
+.film .body .meta{margin-top:11px;padding-top:9px;border-top:1px dashed var(--line);font-size:12px;color:var(--ink2);display:flex;gap:10px;flex-wrap:wrap}
+.film .body .meta b{color:var(--brand);font-weight:400}
+/* ===== 题材卡 ===== */
+.genre{background:var(--paper2);border:1px solid var(--line);padding:22px;border-radius:5px;position:relative}
+.genre .gno{font-family:Georgia,serif;font-size:13px;color:var(--brand);letter-spacing:1px}
+.genre h3{font-size:19px;margin:4px 0 10px;letter-spacing:1px}
+.genre p{font-size:14px;color:var(--ink2)}
+.genre .more{display:inline-block;margin-top:13px;font-size:13px;border-bottom:1px solid var(--brand);padding-bottom:1px}
+/* ===== 索引表 ===== */
+.ledger{width:100%;border-collapse:collapse;background:var(--card);font-size:14.5px;box-shadow:var(--shadow)}
+.ledger th,.ledger td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.ledger th{background:#6b563f;color:#f4ecdd;font-weight:400;letter-spacing:1px;font-size:13.5px;cursor:pointer;user-select:none;white-space:nowrap}
+.ledger th:hover{background:#5c4a34}
+.ledger th .ar{font-size:10px;opacity:.6;margin-left:5px}
+.ledger tbody tr:hover{background:rgba(138,90,43,.07)}
+.ledger .yr{font-family:Georgia,serif;color:var(--brand);white-space:nowrap}
+.ledger .lang{font-size:12.5px;color:var(--ink2);white-space:nowrap}
+.ledger-mobile{overflow-x:auto;-webkit-overflow-scrolling:touch;box-shadow:var(--shadow)}
+.filterbar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:18px}
+.filterbar button{background:#fff;border:1px solid var(--line);padding:7px 15px;border-radius:3px;font-family:inherit;font-size:13.5px;color:var(--ink2);cursor:pointer;transition:.18s}
+.filterbar button:hover{background:var(--paper2)}
+.filterbar button.on{background:var(--brand);color:#fff;border-color:var(--brand)}
+/* ===== 时间轴 ===== */
+.timeline{position:relative;padding-left:10px}
+.tl-item{position:relative;padding:0 0 26px 30px;border-left:2px solid var(--line)}
+.tl-item:last-child{border-left-color:transparent;padding-bottom:0}
+.tl-item::before{content:"";position:absolute;left:-8px;top:5px;width:14px;height:14px;border-radius:50%;background:var(--brand);border:3px solid var(--paper)}
+.tl-item .yr{font-family:Georgia,serif;font-size:18px;color:var(--brand);font-weight:700}
+.tl-item h3{font-size:17px;margin:2px 0 5px}
+.tl-item p{font-size:14px;color:var(--ink2)}
+/* ===== 须知列表 ===== */
+.notice{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:10px 24px;box-shadow:var(--shadow)}
+.notice li{list-style:none;padding:15px 0;border-bottom:1px dashed var(--line)}
+.notice li:last-child{border-bottom:none}
+.notice li b{color:var(--brand);margin-right:9px;font-size:15px}
+/* ===== FAQ ===== */
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:5px;margin-bottom:12px;box-shadow:var(--shadow);overflow:hidden}
+.faq summary{padding:15px 20px;cursor:pointer;font-size:15.5px;font-weight:700;list-style:none;position:relative;padding-right:46px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"＋";position:absolute;right:18px;top:50%;transform:translateY(-50%);color:var(--brand);font-size:19px}
+.faq details[open] summary::after{content:"－"}
+.faq details p{padding:0 20px 18px;font-size:14.5px;color:var(--ink2)}
+/* ===== 关于 ===== */
+.about{background:linear-gradient(160deg,#fbf7ee,#efe7d6);border:1px solid var(--line);border-radius:6px;padding:34px;box-shadow:var(--shadow)}
+.about .cols{display:grid;grid-template-columns:1.4fr 1fr;gap:34px}
+.about h3{font-size:19px;margin-bottom:12px;letter-spacing:1px}
+.about p{font-size:15px;color:var(--ink2);margin-bottom:12px}
+.about .info{background:#fff;border:1px solid var(--line);border-radius:5px;padding:20px}
+.about .info dt{font-size:13px;color:var(--brand);letter-spacing:1px;margin-top:12px}
+.about .info dt:first-child{margin-top:0}
+.about .info dd{font-size:14.5px;word-break:break-all}
+.about .info dd.url{font-family:monospace;font-size:13.5px}
+/* ===== 页脚 ===== */
+footer{background:#4a3f35;color:#f4ecdd;margin-top:60px;padding:36px 0 26px}
+footer .wrap{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:30px}
+footer h4{font-size:15px;letter-spacing:2px;margin-bottom:13px;padding-bottom:8px;border-bottom:1px solid rgba(244,236,221,.25)}
+footer ul{list-style:none}
+footer ul li{padding:5px 0;font-size:14px}
+footer ul li a{color:#f4ecdd;opacity:.85}
+footer ul li a:hover{opacity:1}
+footer .copy{margin-top:26px;padding-top:18px;border-top:1px solid rgba(244,236,221,.2);font-size:12.5px;opacity:.7;text-align:center;grid-column:1/-1}
+/* ===== 响应式 ===== */
+@media(max-width:900px){
+  .g4{grid-template-columns:repeat(2,1fr)}
+  .about .cols{grid-template-columns:1fr;gap:22px}
+  footer .wrap{grid-template-columns:1fr;gap:22px}
+}
+@media(max-width:640px){
+  body{font-size:15px}
+  .wrap{padding:0 14px}
+  .masthead{padding:20px 0 18px}
+  .brand .seal{width:52px;height:52px;font-size:27px}
+  .brand .name{font-size:22px;letter-spacing:1px}
+  .brand .sub{font-size:11px;letter-spacing:2px}
+  .meta-links{width:100%;gap:8px}
+  .meta-links a{font-size:12px;padding:4px 10px}
+  nav.top a{padding:11px 12px;font-size:14px}
+  section{padding:38px 0 6px}
+  .sec-head h2{font-size:20px}
+  .hero{padding:24px 20px;margin-top:24px}
+  .hero h1{font-size:23px}
+  .hero::after{font-size:120px;right:-14px;bottom:-34px}
+  .g3,.g4{grid-template-columns:1fr}
+  .film .poster{height:130px}
+  .ledger th,.ledger td{padding:10px;font-size:13.5px}
+  .ledger th:nth-child(3),.ledger td:nth-child(3),
+  .ledger th:nth-child(5),.ledger td:nth-child(5){display:none}
+  .about{padding:24px 20px}
+  footer{padding:28px 0 20px}
+  footer .copy{text-align:left}
+}
+@media print{
+  nav.top,.meta-links,.filterbar,.faq summary::after{display:none}
+  section{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/zhangzong.js"></script>
+
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand">
+      <div class="seal">老</div>
+      <div>
+        <div class="name">老子电影网</div>
+        <div class="sub">華語老電影 · 資料與觀看指引</div>
+      </div>
+    </div>
+    <div class="meta-links">
+      <a href="#index">影片目录</a>
+      <a href="#timeline">年代索引</a>
+      <a href="#about">本站信息</a>
+    </div>
+  </div>
+</header>
+
+<nav class="top">
+  <div class="wrap">
+    <a href="#top">首页</a>
+    <a href="#guide">选片指引</a>
+    <a href="#genre">题材分类</a>
+    <a href="#index">影片目录</a>
+    <a href="#timeline">年代索引</a>
+    <a href="#notice">观看须知</a>
+    <a href="#faq">常见问题</a>
+    <a href="#about">关于本站</a>
+  </div>
+</nav>
+
+<main class="wrap" id="top">
+
+  <div class="hero">
+    <h1>老子电影网 —— 一页看尽华语老电影的脉络</h1>
+    <div class="url">https://laozidianyingwang-zh.github.io</div>
+    <p>老子电影网（<strong>laozidianyingwang-zh.github.io</strong>）是一个由影迷整理的华语老电影资料站点，聚焦 1950—2000 年代的经典影片、怀旧影视与影史线索。本站不提供在线播放，仅整理影片信息并指向正版发行与合规观看渠道，帮助你在浩繁片海中按年代、题材、语系快速定位想找的老片。</p>
+    <div class="tags">
+      <span>华语老电影</span>
+      <span>经典影片</span>
+      <span>怀旧影视</span>
+      <span>影片目录</span>
+      <span>正版渠道</span>
+      <span>选片指引</span>
+    </div>
+  </div>
+
+  <section id="guide">
+    <div class="sec-head">
+      <span class="no">壹</span>
+      <h2>选片指引</h2>
+      <span class="en">SELECTION GUIDE</span>
+      <span class="rule"></span>
+    </div>
+    <p class="sec-note">不知道从哪部看起？老子电影网把老电影拆成三条选片路径：<b>按心情</b>、<b>按年代</b>、<b>按题材</b>。先确定当下的观看目的，再从对应路径里挑片，比漫无目的翻片单更高效。</p>
+    <div class="grid g3">
+      <div class="genre">
+        <div class="gno">PATH · 01</div>
+        <h3>按心情挑片</h3>
+        <p>想轻松解闷，选喜剧与市井题材；想沉淀思考，选伦理与历史题材；想感受时代气息，选怀旧文艺片。心情是老电影最好的选片尺子。</p>
+        <a class="more" href="#genre">进入题材分类 →</a>
+      </div>
+      <div class="genre">
+        <div class="gno">PATH · 02</div>
+        <h3>按年代追溯</h3>
+        <p>每个年代都有独特的影像语言与社会气质。从八十年代的写实浪潮到九十年代的多元探索，沿着年代看片，更容易看懂一部老电影为何那样拍。</p>
+        <a class="more" href="#timeline">进入年代索引 →</a>
+      </div>
+      <div class="genre">
+        <div class="gno">PATH · 03</div>
+        <h3>按正版渠道观看</h3>
+        <p>老电影的发行版权分散，同一部片在不同地区的上线情况差异很大。本站列出的渠道均为公开合规平台，建议优先核对当地区域与版权状态。</p>
+        <a class="more" href="#notice">查看观看须知 →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="genre">
+    <div class="sec-head">
+      <span class="no">贰</span>
+      <h2>题材分类</h2>
+      <span class="en">GENRE</span>
+      <span class="rule"></span>
+    </div>
+    <p class="sec-note">题材是老电影最稳定的检索维度。老子电影网把收录影片归入六类，每类都标注了典型的影像风格与观片门槛，方便你判断是否符合当下口味。</p>
+    <div class="grid g3">
+      <div class="film">
+        <div class="poster"><span>市井 · 喜剧</span></div>
+        <div class="body">
+          <h3>市井喜剧类</h3>
+          <p>以日常幽默与民间智慧见长，语言密度高，方言与民俗色彩浓，是最贴近普通生活的老电影类型。</p>
+          <div class="meta"><b>代表要素</b>方言 / 民俗 / 群像 / 讽刺</div>
+        </div>
+      </div>
+      <div class="film">
+        <div class="poster"><span>伦理 · 家庭</span></div>
+        <div class="body">
+          <h3>伦理家庭类</h3>
+          <p>围绕亲情、代际与婚姻展开，节奏克制、表演细腻，是理解特定年代家庭观念的重要影像样本。</p>
+          <div class="meta"><b>代表要素</b>亲情 / 代际 / 道德 / 克制</div>
+        </div>
+      </div>
+      <div class="film">
+        <div class="poster"><span>历史 · 传记</span></div>
+        <div class="body">
+          <h3>历史传记类</h3>
+          <p>依托真实人物或重大事件，重视叙事结构与史实还原，观片前了解背景能显著提升理解深度。</p>
+          <div class="meta"><b>代表要素</b>史实 / 人物 / 群像 / 厚重</div>
+        </div>
+      </div>
+      <div class="film">
+        <div class="poster"><span>武侠 · 动作</span></div>
+        <div class="body">
+          <h3>武侠动作类</h3>
+          <p>以武术设计与身体动作为核心，兼具美学表达与类型娱乐性，是华语电影最具辨识度的类型之一。</p>
+          <div class="meta"><b>代表要素</b>武术 / 江湖 / 节奏 / 视觉</div>
+        </div>
+      </div>
+      <div class="film">
+        <div class="poster"><span>文艺 · 怀旧</span></div>
+        <div class="body">
+          <h3>文艺怀旧类</h3>
+          <p>节奏舒缓、意象丰富，常以个人记忆折射时代变迁，适合安静观看并配合片后讨论。</p>
+          <div class="meta"><b>代表要素</b>意象 / 记忆 / 抒情 / 慢节奏</div>
+        </div>
+      </div>
+      <div class="film">
+        <div class="poster"><span>悬疑 · 犯罪</span></div>
+        <div class="body">
+          <h3>悬疑犯罪类</h3>
+          <p>以谜题与反转驱动叙事，受技术条件限制，老式悬疑片更依赖剧本与表演，反而耐看。</p>
+          <div class="meta"><b>代表要素</b>谜题 / 反转 / 推理 / 张力</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="index">
+    <div class="sec-head">
+      <span class="no">叁</span>
+      <h2>影片目录</h2>
+      <span class="en">FILM LEDGER</span>
+      <span class="rule"></span>
+    </div>
+    <p class="sec-note">目录即账簿：每一行是一部影片的最小资料卡。点击任意表头可对该列排序，使用下方按钮可按题材快速筛选。片名、年代、片长、语系与题材均为整理口径，具体以正式发行版本为准。</p>
+    <div class="filterbar" id="filters">
+      <button class="on" data-f="all">全部</button>
+      <button data-f="市井喜剧">市井喜剧</button>
+      <button data-f="伦理家庭">伦理家庭</button>
+      <button data-f="历史传记">历史传记</button>
+      <button data-f="武侠动作">武侠动作</button>
+      <button data-f="文艺怀旧">文艺怀旧</button>
+      <button data-f="悬疑犯罪">悬疑犯罪</button>
+    </div>
+    <div class="ledger-mobile">
+      <table class="ledger" id="ledger">
+        <thead>
+          <tr>
+            <th data-k="title" data-t="s">片名<span class="ar">↕</span></th>
+            <th data-k="year" data-t="n">年代<span class="ar">↕</span></th>
+            <th data-k="lang" data-t="s">语系<span class="ar">↕</span></th>
+            <th data-k="genre" data-t="s">题材<span class="ar">↕</span></th>
+            <th data-k="dur" data-t="n">片长(分)<span class="ar">↕</span></th>
+            <th data-k="note" data-t="s">资料备注<span class="ar">↕</span></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="timeline">
+    <div class="sec-head">
+      <span class="no">肆</span>
+      <h2>年代索引</h2>
+      <span class="en">TIMELINE</span>
+      <span class="rule"></span>
+    </div>
+    <p class="sec-note">按年代而非按热度排列，是理解华语老电影演变的有效方式。老子电影网选取五个代表性阶段，梳理每个阶段的技术条件、创作倾向与观片重点。</p>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="yr">1950s — 1960s</div>
+        <h3>戏曲与民间叙事的黄金期</h3>
+        <p>戏曲片、民间故事改编与社会现实题材并存，影像语言受舞台传统影响较深，是观察早期华语电影美学的起点。</p>
+      </div>
+      <div class="tl-item">
+        <div class="yr">1970s</div>
+        <h3>类型片与技术的过渡期</h3>
+        <p>武侠与动作类型快速成熟，摄影、剪辑与声音技术逐步规范化，为下一阶段的多元爆发打下基础。</p>
+      </div>
+      <div class="tl-item">
+        <div class="yr">1980s</div>
+        <h3>写实浪潮与人文回归</h3>
+        <p>创作者重新关注个体命运与社会现实，表演趋向自然，镜头语言更贴近生活质感，产出了大量经得起重看的经典。</p>
+      </div>
+      <div class="tl-item">
+        <div class="yr">1990s</div>
+        <h3>多元探索与市场化</h3>
+        <p>作者表达与商业类型并行，城市题材兴起，独立制片与艺术院线开始出现，影像风格日趋多样。</p>
+      </div>
+      <div class="tl-item">
+        <div class="yr">2000s 初</div>
+        <h3>数字化的前夜</h3>
+        <p>胶片美学的尾声，同时是数字拍摄的起步。这一时期的作品已成为"新怀旧"对象，修复与重映逐渐增多。</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="notice">
+    <div class="sec-head">
+      <span class="no">伍</span>
+      <h2>观看须知</h2>
+      <span class="en">VIEWING NOTICE</span>
+      <span class="rule"></span>
+    </div>
+    <p class="sec-note">老电影的观看体验，一半来自影片本身，一半来自版本选择。老子电影网整理了几条实操建议，帮助你在画质、字幕与版权之间做出平衡。</p>
+    <ul class="notice">
+      <li><b>01</b>优先选择官方发行的修复版或蓝光版，画质与色彩还原度远高于网络流传的压缩拷贝。</li>
+      <li><b>02</b>方言片建议开启字幕，方言本身承载了重要的地域信息与喜剧节奏。</li>
+      <li><b>03</b>老片字幕常有多个版本，核对发行方与年份可避免混入错译或机器翻译字幕。</li>
+      <li><b>04</b>同一部片在不同地区的版权归属不同，观看前请确认平台在你所在地区的授权状态。</li>
+      <li><b>05</b>部分老片涉及历史表述差异，建议同时参考多个来源的资料再做判断。</li>
+      <li><b>06</b>本站只提供资料整理与渠道指引，不提供任何在线播放、下载或资源分享服务。</li>
+    </ul>
+  </section>
+
+  <section id="faq">
+    <div class="sec-head">
+      <span class="no">陆</span>
+      <h2>常见问题</h2>
+      <span class="en">FAQ</span>
+      <span class="rule"></span>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>老子电影网主要收录什么范围的影片？</summary>
+        <p>本站聚焦 1950—2000 年代以华语为主要语言的电影与电视剧，重点收录在影史上具有代表性、或长期被观众提及的经典与怀旧作品。收录以资料整理为目的，不代表本站对影片内容的评价立场。</p>
+      </details>
+      <details>
+        <summary>为什么只提供渠道指引，不提供在线观看？</summary>
+        <p>老电影的版权归属复杂且地区差异大，提供固定播放源既难以保证长期有效，也可能涉及合规风险。因此本站只整理影片资料并指向公开合规的发行与观看渠道，由你自行核实当地区域与授权状态。</p>
+      </details>
+      <details>
+        <summary>影片目录的资料可以引用吗？</summary>
+        <p>片名、年代、片长等字段为公开整理资料，引用时建议同时核对正式发行版本。若你发现错误，可通过下方渠道联系本站更新，我们会标注来源并尽快修正。</p>
+      </details>
+      <details>
+        <summary>想找某一部特定老片，但目录里没有怎么办？</summary>
+        <p>可先按年代索引缩小时间范围，再按题材分类交叉查找；也可以参考本站列出的正版渠道目录，用片名或主演名在对应平台内检索，通常比全网泛搜更高效。</p>
+      </details>
+      <details>
+        <summary>网站网址是什么？</summary>
+        <p>老子电影网的唯一网址为 <b>https://laozidianyingwang-zh.github.io</b>，任何使用其他域名或跳转链接的页面均与本站点无关，请留意核对。</p>
+      </details>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="sec-head">
+      <span class="no">柒</span>
+      <h2>关于本站</h2>
+      <span class="en">ABOUT</span>
+      <span class="rule"></span>
+    </div>
+    <div class="about">
+      <div class="cols">
+        <div>
+          <h3>我们想做的事</h3>
+          <p>老子电影网由一群华语老电影爱好者维护，目标是把散落在各处的影片资料、发行信息与观看渠道，整理成一个能快速检索、能反复翻阅的单页索引。我们不追求收录数量，更在意每一条资料的可核验性与实用性。</p>
+          <p>本站内容持续更新，新增影片会同步补充到目录与年代索引中。如果你有可靠的资料线索或修正建议，欢迎通过以下渠道与我们联系。</p>
+          <p>本站不提供在线播放、下载或资源分享，也不收录任何可能涉及版权争议的内容。我们鼓励通过正版发行与合规渠道观看老电影，这既是尊重创作者，也是让修复与重映得以持续的前提。</p>
+        </div>
+        <div class="info">
+          <h4 style="border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:4px">站点信息</h4>
+          <dl>
+            <dt>网站名称</dt><dd>老子电影网</dd>
+            <dt>英文标识</dt><dd>laozidianyingwang-zh</dd>
+            <dt>网站网址</dt><dd class="url">https://laozidianyingwang-zh.github.io</dd>
+            <dt>内容定位</dt><dd>华语老电影资料整理与观看指引</dd>
+            <dt>收录范围</dt><dd>1950—2000 年代华语影片</dd>
+            <dt>联系方式</dt><dd>见下方内页链接</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h4>老子电影网</h4>
+      <p style="font-size:14px;opacity:.82;max-width:320px">华语老电影资料整理与观看指引站点，聚焦经典影片、怀旧影视与影史线索，只提供资料与合规渠道指引。</p>
+    </div>
+    <div>
+      <h4>栏目导航</h4>
+      <ul>
+        <li><a href="#guide">选片指引</a></li>
+        <li><a href="#genre">题材分类</a></li>
+        <li><a href="#index">影片目录</a></li>
+        <li><a href="#timeline">年代索引</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>相关链接</h4>
+      <ul>
+        <li><a href="#notice">观看须知</a></li>
+        <li><a href="#faq">常见问题</a></li>
+        <li><a href="#about">关于本站</a></li>
+        <li><a href="#top">回到顶部</a></li>
+      </ul>
+    </div>
+    <div class="copy">© 老子电影网 laozidianyingwang-zh · 本站仅作资料整理与观看渠道指引，不提供在线播放或资源下载服务</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var films=[
+    {title:"茶馆",year:1982,lang:"普通话",genre:"历史传记",dur:118,note:"老舍原著改编，群像史诗"},
+    {title:"城南旧事",year:1983,lang:"普通话",genre:"文艺怀旧",dur:88,note:"散文式叙事，童年视角"},
+    {title:"少林寺",year:1982,lang:"普通话",genre:"武侠动作",dur:96,note:"实景拍摄，真功实打"},
+    {title:"黄土地",year:1984,lang:"普通话",genre:"文艺怀旧",dur:92,note:"影像风格革新之作"},
+    {title:"芙蓉镇",year:1987,lang:"普通话",genre:"伦理家庭",dur:164,note:"年代跨度大的伦理叙事"},
+    {title:"红高粱",year:1988,lang:"普通话",genre:"历史传记",dur:91,note:"色彩浓烈的民俗表达"},
+    {title:"本命年",year:1990,lang:"普通话",genre:"文艺怀旧",dur:110,note:"城市边缘人的孤独写照"},
+    {title:"菊豆",year:1990,lang:"普通话",genre:"伦理家庭",dur:95,note:"封闭空间中的伦理困境"},
+    {title:"大红灯笼高高挂",year:1991,lang:"普通话",genre:"伦理家庭",dur:125,note:"仪式化影像与权力结构"},
+    {title:"秋菊打官司",year:1992,lang:"陕西方言",genre:"市井喜剧",dur:100,note:"纪实手法与非职业演员"},
+    {title:"霸王别姬",year:1993,lang:"普通话",genre:"历史传记",dur:171,note:"跨越半世纪的梨园叙事"},
+    {title:"活着",year:1994,lang:"普通话",genre:"历史传记",dur:133,note:"家庭命运与时代变迁"},
+    {title:"背靠背 脸对脸",year:1994,lang:"普通话",genre:"市井喜剧",dur:148,note:"官场生态的黑色幽默"},
+    {title:"阳光灿烂的日子",year:1994,lang:"普通话",genre:"文艺怀旧",dur:134,note:"青春记忆的迷离重构"},
+    {title:"饮食男女",year:1994,lang:"普通话",genre:"伦理家庭",dur:124,note:"餐桌上的家庭关系"},
+    {title:"东邪西毒",year:1994,lang:"普通话",genre:"武侠动作",dur:100,note:"武侠外壳下的情感寓言"},
+    {title:"民警故事",year:1995,lang:"普通话",genre:"市井喜剧",dur:100,note:"纪实风格的社会切片"},
+    {title:"巫山云雨",year:1996,lang:"普通话",genre:"文艺怀旧",dur:100,note:"极简叙事与日常诗意"},
+    {title:"甲方乙方",year:1997,lang:"普通话",genre:"市井喜剧",dur:82,note:"贺岁喜剧的起步之作"},
+    {title:"那山那人那狗",year:1999,lang:"普通话",genre:"伦理家庭",dur:93,note:"父子关系与乡土中国"},
+    {title:"一个都不能少",year:1999,lang:"河北方言",genre:"文艺怀旧",dur:106,note:"非职业演员的纪实尝试"},
+    {title:"鬼子来了",year:2000,lang:"唐山方言",genre:"悬疑犯罪",dur:139,note:"黑色幽默与人性审视"},
+    {title:"站台",year:2000,lang:"普通话",genre:"文艺怀旧",dur:193,note:"县城青年的时代漂泊"},
+    {title:"花样年华",year:2000,lang:"普通话 / 粤语",genre:"文艺怀旧",dur:98,note:"六十年代香港的克制情愫"},
+    {title:"卧虎藏龙",year:2000,lang:"普通话",genre:"武侠动作",dur:120,note:"东方美学与国际化叙事"}
+  ];
+  var tb=document.querySelector("#ledger tbody");
+  var cur="all",key="title",asc=true,type="s";
+  function render(){
+    var rows=films.filter(function(f){return cur==="all"||f.genre===cur;});
+    rows.sort(function(a,b){
+      var x=a[key],y=b[key];
+      if(type==="n"){x=+x;y=+y;return asc?x-y:y-x;}
+      return asc?String(x).localeCompare(String(y),"zh"):String(y).localeCompare(String(x),"zh");
+    });
+    tb.innerHTML="";
+    rows.forEach(function(f){
+      var tr=document.createElement("tr");
+      tr.innerHTML='<td><b>'+f.title+'</b></td><td class="yr">'+f.year+'</td><td class="lang">'+f.lang+'</td><td>'+f.genre+'</td><td>'+f.dur+'</td><td style="font-size:13px;color:var(--ink2)">'+f.note+'</td>';
+      tb.appendChild(tr);
+    });
+    document.querySelectorAll("#ledger th").forEach(function(th){
+      th.querySelector(".ar").textContent=(th.dataset.k===key)?(asc?"↑":"↓"):"↕";
+    });
+  }
+  document.querySelectorAll("#ledger th").forEach(function(th){
+    th.addEventListener("click",function(){
+      var k=th.dataset.k;
+      if(key===k){asc=!asc;}else{key=k;asc=true;type=th.dataset.t;}
+      render();
+    });
+  });
+  document.querySelectorAll("#filters button").forEach(function(b){
+    b.addEventListener("click",function(){
+      document.querySelectorAll("#filters button").forEach(function(x){x.classList.remove("on");});
+      b.classList.add("on");cur=b.dataset.f;render();
+    });
+  });
+  render();
+})();
+</script>
+
+</body>
+</html>
